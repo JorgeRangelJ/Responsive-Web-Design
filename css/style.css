@@ -303,3 +303,31 @@ figure {
     height: inherit;
     flex-wrap: inherit;
 }
+
+/*
+
+Breakpoints estandarizados que debemos de tener en cuenta:
+
+Móviles: entre 320 y 480 píxeles.
+Tablets: entre 768 y 1024 píxeles.
+Pantallas grandes: más de 1024 píxeles o más.
+
+*/
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        border: 10px solid green;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+@media screen and (max-width: 320px) {
+
+}
