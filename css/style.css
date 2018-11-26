@@ -325,7 +325,9 @@ Pantallas grandes: más de 1024 píxeles o más.
 */
 
 @media screen and (max-width: 1024px) {
-
+    .container {
+        padding: 0 1em;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -392,6 +394,23 @@ Pantallas grandes: más de 1024 píxeles o más.
     .event-details {
         margin: -2em .5em .5em .5em;
         padding: 1em;
+    }
+    .contact {
+        height: auto;
+        padding: 1.5em 0;
+        text-align: center;
+        display: block;
+    }
+    .form-email button {
+        margin: 1em auto;
+    }
+    .form-email h3 {
+        margin-top: 0;
+    }
+    .footer {
+        display: flex;
+        text-align: center;
+        border: 1px solid transparent;
     }
 }
 
